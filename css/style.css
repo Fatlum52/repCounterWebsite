@@ -142,7 +142,7 @@ img {
 
 .shots {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 260px));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 230px));
   justify-content: center;
   gap: 24px;
 }
@@ -158,6 +158,22 @@ img {
 }
 
 .shots figcaption {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-top: 8px;
+}
+
+.shot-wide {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.shot-wide img {
+  border-radius: 14px;
+}
+
+.shot-wide figcaption {
   font-size: 14px;
   color: var(--text-muted);
   margin-top: 8px;
